@@ -29,7 +29,7 @@ function Navbar() {
       const data = snapshot.val();
       if (!!data) {
         setPData(data);
-        if (data.Temperature > 30) {
+        if (data.Temperature > 23) {
           setShowAlert(true);
         } else {
           setShowAlert(false);
